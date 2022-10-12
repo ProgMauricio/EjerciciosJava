@@ -1,0 +1,1 @@
+console.log("tipo de dato")

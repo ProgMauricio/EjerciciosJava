@@ -16,4 +16,6 @@ let frecuencia = prompt("Con que frecuencia debe tomarse el medicamento")
 
 /* document.write("hola") */
 
+console.log(`tu la hora inicial para tomar tu medicamento es a las`)
+
 

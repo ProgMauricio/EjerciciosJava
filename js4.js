@@ -22,7 +22,7 @@ function divisores(numero) {
 
 
 
-
+/* 
 const divisoresV2 = function(numero){
     let total = 0;
 
@@ -34,10 +34,10 @@ const divisoresV2 = function(numero){
     }
     return total;
 };
+ */
 
 
-
-
+/* 
 const divisoresV3 = numero => {
     let total = 0;
 
@@ -49,7 +49,7 @@ const divisoresV3 = numero => {
     }
     return total;
 };
-
+ */
 console.log("Total de divisores", divisores(32));
 console.log("Total de divisores", divisoresV2(32));
 console.log("Total de divisores", divisoresV3(32));
@@ -57,13 +57,16 @@ console.log("Total de divisores", divisoresV3(32));
 
 
 
-function calcular() {
-    let numero = document.getElementById("numero").value;
+function calcular(){
+    let numero = 
+    parseInt(document.getElementById("numero").value);
 
     let resultado = 
     document.getElementById("resul");
 
-    resultado.value = numero;
+
+    resultado.value = divisores(numero);
+    /* Img.rsc */
 
 }
 

@@ -1,6 +1,6 @@
-function nombre(){}             /* funcion normal */
-const nombre = function(){};    /* funcion anonima */
-const nombre = () => {};    /* funcion flecha */
+/* function nombre(){}  */            /* funcion normal */
+/* const nombre = function(){};  */   /* funcion anonima */
+/* const nombre = () => {};  */   /* funcion flecha */
 
 
 
@@ -54,6 +54,18 @@ console.log("Total de divisores", divisores(32));
 console.log("Total de divisores", divisoresV2(32));
 console.log("Total de divisores", divisoresV3(32));
 
+
+
+
+function calcular() {
+    let numero = document.getElementById("numero").value;
+
+    let resultado = 
+    document.getElementById("resul");
+
+    resultado.value = numero;
+
+}
 
 
 /* function f1(){}

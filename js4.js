@@ -62,7 +62,7 @@ function calcular(){
     parseInt(document.getElementById("numero").value);
 
     let resultado = 
-    document.getElementById("resul");
+    document.getElementById("result");
 
 
     resultado.value = divisores(numero);

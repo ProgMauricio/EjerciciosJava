@@ -1,3 +1,12 @@
+function nombre(){}             /* funcion normal */
+const nombre = function(){};    /* funcion anonima */
+const nombre = () => {};    /* funcion flecha */
+
+
+
+
+
+
 
 function divisores(numero) {
     let total = 0;
@@ -25,9 +34,6 @@ const divisoresV2 = function(numero){
     }
     return total;
 };
-
-
-
 
 
 

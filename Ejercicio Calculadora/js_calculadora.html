@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
+    <link rel="stylesheet" href="js_calculadora.css">
 </head>
 <body>
     <h1>Calculadora</h1>
@@ -24,13 +25,17 @@
     
     <div class="operacion">
         <label for="operacion">Operacion</label>
-        <input type="text" name="operacion"
-        id="operacion">
+            <select>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
     </div>
 
     <div class="resultado">
         <label for="resultado">Resultado</label>
-        <input type="number" name="numresul"
+        <input type="text" name="numresul"
         id="numresul">
     </div>
 

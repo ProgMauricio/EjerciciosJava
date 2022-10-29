@@ -9,31 +9,33 @@
 </head>
 <h1>Tabla de multiplicación</h1>
 <body>
-    <div>
+    <div class="Tabla">
         <label for="tabla">Tabla</label>
         <input type="text" name="tabla" id="tabla">
     </div>
 
-    <div class="Resultado">
-        <label for="resultado"><!-- Resultado --></label>
+    <div class="Tipo">
+        <label for="tipo">Tipo</label>
             <select>
                 <option value="normal">Normal</option>
+                <option value="invertida">Invertida</option>
             </select>
     </div>
 
 
-    <div>
+    <div class="Longitud">
         <label for="longitud">Longitud</label>
         <input type="text" name="longitud" id="longitud">
     </div>
 
     <div class="Resultado">
+        <h1>Resultado</h1>
         <label for="resultado"><!-- Resultado --></label>
         <input type="text" name="resultado" id="resultado">
     </div>
     
     <div class="boton-generar">
-        <button>Generar</button>
+        <button onclick="generar()">Generar</button>
     </div>
 
 

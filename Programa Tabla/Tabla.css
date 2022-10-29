@@ -4,4 +4,6 @@ body {
 
 .Resultado {
     display: block;
+    float: right;
+    margin-right: 200px;
 }

@@ -2,12 +2,6 @@
 /* const nombre = function(){};  */   /* funcion anonima */
 /* const nombre = () => {};  */   /* funcion flecha */
 
-
-
-
-
-
-
 function divisores(numero) {
     let total = 0;
 
@@ -19,7 +13,6 @@ function divisores(numero) {
     }
     return total;
 }
-
 
 
 /* 
@@ -53,8 +46,6 @@ const divisoresV3 = numero => {
 console.log("Total de divisores", divisores(32));
 console.log("Total de divisores", divisoresV2(32));
 console.log("Total de divisores", divisoresV3(32));
-
-
 
 
 function calcular(){

@@ -1,0 +1,34 @@
+body {
+    background-color: darkgrey;
+}
+
+* {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+input {
+    color:brown;
+}
+
+h1:hover {
+    outline: 1px solid white;
+    color: blueviolet;
+}
+
+div {  
+    margin: auto;
+    width: 320px;
+    height: 350px;
+    display: block;
+    background: yellow;   
+    overflow: auto;
+}
+
+div > h2 {
+    background: white;
+    text-align: center;
+}
